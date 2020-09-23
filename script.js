@@ -1,13 +1,17 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
-var userLength = prompt("Choose password length (must be between 8-128)", "0");
-var passwordLength = parseInt(userLength);
-// Write password to the #password input
+
+// Write password to the #password input, user is prompted with choice of password length
 function writePassword() {
+  var userLength = prompt("Choose password length (must be between 8-128)", "0");
+  var passwordLength = parseInt(userLength);  
+
+  // var type1 = confirm("Would you like to include special characters?"); START HERE
+
   var password = generatePassword(passwordLength);
   var passwordText = document.querySelector("#password");
-
   passwordText.value = password;
+
 // the function generatePassword was found on https://www.codegrepper.com/code-examples/javascript/javascript+password+generator+example
   function generatePassword(passwordLength) {
     var numberChars = "0123456789";
@@ -26,6 +30,7 @@ function writePassword() {
     ).join("");
   }
 
+// this function shuffles the arrays to randomly generate the string
   function shuffleArray(array) {
     for (var i = array.length - 1; i > 0; i--) {
       var j = Math.floor(Math.random() * (i + 1));
@@ -37,7 +42,7 @@ function writePassword() {
   }
 }
 
-// alert(generatePassword(12));
-
-// Add event listener to generate button
-generateBtn.addEventListener("click", writePassword());
+// when the 'generate password' button is clicked, the user is prompted to chose password length, then a randomly generated password in displayed 
+generateBtn.addEventListener("click", function (){
+    writePassword();
+});
