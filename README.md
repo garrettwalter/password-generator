@@ -1,18 +1,17 @@
 # 03 JavaScript: Password Generator
 
-## Your Task
+## Table of Contents
 
-This week’s homework requires you to create an application that an employee can use to generate a random password based on criteria they’ve selected by modifying starter code. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes.
+- [The Task](#the-task)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Screenshots and Links](#screenshot/links)
+- [Installation](#installation)
+- [Credits](#credits)
+- [License](#license)
 
-The password can include special characters. If you’re unfamiliar with these, see this [list of Password Special Characters from the OWASP Foundation](https://www.owasp.org/index.php/Password_special_characters).
+## The Task
 
-## User Story
-
-```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-```
+This assignment was to create an application that an employee can use to generate a random password based on criteria they’ve selected by modifying starter code. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes.
 
 ## Acceptance Criteria
 
@@ -33,61 +32,45 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
+## Screenshots/links
+[Responsive-Portfolio](https://github.com/garrettwalter/password-generator)
+[Github-Pages](https://garrettwalter.github.io/password-generator/)
 
-## Mock-Up
+[Video demonstration of 'password-generator'](https://drive.google.com/file/d/1kQFzLUFGpVZrqNjWwGoagnoIOsCRd7TI/preview) 
 
-The following image shows the web application's appearance and functionality:
+## Installation
 
-![password generator demo](./Assets/03-javascript-homework-demo.png)
+To  this project you must visit my GitHub page and locate the repository named "Responsive-Portfolio". Once this repository is cloned to your computer, you will be able to edit the files. Any questions can be directed to [Garrett Walter](mailto:gtwalter150@gmail.com). This project can be found here: [Responsive-Portfolio](https://github.com/garrettwalter/password-generator)
 
-## Grading Requirements
+## Credits
 
-This homework is graded based on the following criteria: 
+Parts of the function 'generatePassword' was found on [Code Grepper](https://www.codegrepper.com/code-examples/javascript/javascript+password+generator+example)
 
-### Technical Acceptance Criteria: 40%
+## License
 
-* Satisfies all of the above acceptance criteria plus the following:
+This is free and unencumbered software released into the public domain.
 
-  * The homework should not produce any errors in the console when you inspect it using Chrome DevTools.
+Anyone is free to copy, modify, publish, use, compile, sell, or
+distribute this software, either in source code form or as a compiled
+binary, for any purpose, commercial or non-commercial, and by any
+means.
 
-### Deployment: 32%
+In jurisdictions that recognize copyright laws, the author or authors
+of this software dedicate any and all copyright interest in the
+software to the public domain. We make this dedication for the benefit
+of the public at large and to the detriment of our heirs and
+successors. We intend this dedication to be an overt act of
+relinquishment in perpetuity of all present and future rights to this
+software under copyright law.
 
-* Application deployed at live URL.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
 
-* Application loads with no errors.
+For more information, please refer to <https://unlicense.org>
 
-* Application GitHub URL submitted.
-
-* GitHub repository that contains application code.
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the homework instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
-
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+---
